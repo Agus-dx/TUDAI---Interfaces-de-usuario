@@ -1,0 +1,177 @@
+
+:root{
+  --color-principal: rgb(0, 122, 255);
+  --color-secundario: rgb(255, 150, 44);
+  --color-negro: rgb(37, 36, 33);
+  --color-blanco: rgb(247, 247, 247);
+
+  --color-header:rgb(0, 122, 255);
+  --color-barra-lateral:rgb(0, 99, 206);
+  --color-footer:rgb(0, 122, 255);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }*
+
+
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(247, 247, 247);
+  font-family: 'Rowdies';
+}
+.contenido{
+  height: 100vh;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.3em;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+p {
+  margin-bottom: 1.6em; /*margen inferior funciona como enter entre parrafos*/
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+::placeholder{
+  color: rgb(161, 161, 161);
+}
+
+ul li{
+  list-style: none;
+  color: rgb(247, 247, 247);
+}
+
+
+/* ---------- CABECERA  ---------- */
+
+.cont-cabecera-logo-xs{
+  height: 50px;
+}
+
+.logo-img{
+  display: none;
+}
+
+.header {
+  background:rgb(0, 122, 255);
+  position:sticky;
+  width: 100%;
+}
+
+.cont-cabecera {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.cont-cabecera-izq {
+  display: flex;
+  align-items: center;
+}
+
+.cont-cabecera-cen {
+  display: flex;
+  align-items: center;
+}
+
+.cont-cabecera-der{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+#cont-cabecera-barradebusqueda{
+  display: none;
+  background-color: aliceblue;
+  align-items: center;
+  width: 400px;
+  border-radius: 20px;
+  border-width: 0;
+  height: 40px;
+  padding-right: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+
+.cont-menu-hamburguesa{
+  height: 35px;
+  padding: 2px 10px;
+}
+
+.cont-cabecera-btn-carrito{
+  height: 30px;
+  padding: 2px 5px;
+}
+
+.cont-cabecera-btn-usuario{
+  height: 30px;
+  padding: 2px 10px 2px 5px;
+} 
+
+.menu-desplegable{
+  display: flex;
+  background-color: rgb(0, 122, 255);
+  position: absolute;
+  height: 100vh;
+}
+
+.cont-menu-desplegable-item-img{
+  padding: 5px 12px;
+}
+
+.cont-menu-desplegable-item-nombre{
+  padding: 2px 10px 5px 0px;
+}
+
+.cont-menu-desplegable-item{
+  display: flex;
+  height: 35px;
+}
+/* ---------- TERMINA CABECERA  ---------- */
+
+
+
+
+
+
+/* PIE DE PAGINA */
+.footer {
+  padding: 0.8rem 0;
+  background: rgb(26, 26, 26);
+  color: rgb(201, 25, 25);
+  text-align: center;
+}
+
+.pie-de-pagina{
+  color:azure;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+/* TERMINA PIE DE PAGINA */
